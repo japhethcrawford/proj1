@@ -1,0 +1,55 @@
+body{
+	font-family: "proxima-nova";
+	font-weight: 400;
+}
+
+.top-bar {
+	color: white;
+	background-color: #343333;
+	height: 50px;
+	min-width: 100%;
+	float: right;
+	text-align: right;
+	font-size: .7em;
+	margin-bottom: 50px;
+}
+
+a.plainlink {
+	color: inherit;
+}
+
+
+.top-nav{
+	list-style: none;
+	display: inline;
+	margin: 10px;
+}
+
+div.top-nav{
+	margin-top: 40px;
+	float: right;
+}
+
+li.top-nav{
+	border: solid #378bbf 2px;
+	padding: 20px;
+}
+
+.fullwidth{
+	width: 100%;
+}
+
+.heroImage {
+	margin-top: 25px;
+}
+
+.divider {
+	height: 40px;
+	background-color: #1780ad;
+}
+
+.dividertype {
+	color: white;
+	font-wight: 200;
+	
+}
