@@ -1,6 +1,30 @@
 body{
 	font-family: "Proxima Nova";
 	font-weight: 400;
+	text-align: left;
+}
+
+h1{
+	font-size: 190%;
+	color: #2b2b2b;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 130%;
+	color: #2b2b2b;
+	font-weight: 500;
+}
+
+h4 {
+	font-weight: 100;
+	font-size: 110%;
+	letter-spacing: 1px;
+	line-height: 190%;
+}
+
+.centered {
+	text-align: center;
 }
 
 .top-bar {
@@ -46,10 +70,112 @@ li.top-nav{
 .divider {
 	height: 40px;
 	background-color: #1780ad;
+	margin-bottom: 10px;
 }
 
 .dividertype {
 	color: white;
 	font-wight: 100;
+	text-align: left;
 	
 }
+
+.topfives {
+	background-color: #1780ad;
+	min-height: 400px;
+}
+
+.footertitle {
+	font-size: 250%;
+}
+.footertype {
+	color: white;
+	font-weight: 200;
+	font-size: 90%;
+}
+.firstlinefix {
+	padding-top: 38px;
+}
+
+.topfivecat {
+	color: white;
+	ol {
+		a {
+		text-decoration: none;
+		color: white;
+		}
+		a:hover {
+		text-decoration: underline;
+		}
+	}
+	h1{
+		color: white; 
+		a:hover{
+			text-decoration: none;
+		}
+	}		
+}
+
+
+
+
+.button {
+	background-color: #f38611;
+	padding-right: 4rem;
+	padding-left: 4rem;
+	-webkit-transition: background-color 300ms ease-out;
+	   -moz-transition: background-color 300ms ease-out;
+            transition: background-color 300ms ease-out;
+    -webkit-border-radius: 5px;
+    		border-radius: 5px;
+}
+.button:hover {
+	background-color: #e74408;
+}
+
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+	width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+
+.jcarousel-control-prev {
+	float: left;
+}
+
+.jcarousel-control-next {
+	float: right;
+}
+

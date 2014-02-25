@@ -6,15 +6,19 @@
     <title>Enoch Pratt Free Library</title>
     <link rel="stylesheet" href="css/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
-<script type="text/javascript" src="//use.typekit.net/nvj8qgg.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-	<script src="js/portfolio.pack.min.js"></script>
-	<script>
-    $(document).ready(function() {
-            var p = $("#gallery").portfolio();
-            p.init();
+	<script type="text/javascript" src="//use.typekit.net/nvj8qgg.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jcarousel.js"></script>
+	<script type="text/javascript" src="js/jcarousel.skeleton.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">
+	$(function() {
+    $('.jcarousel').jcarousel({
+        // Configuration goes here
     });
+});
+
+
 </script>
   </head>
   <body>
@@ -44,22 +48,174 @@
 	    <div class="row">
     		<h4 class="dividertype large-4 columns">Recommended for You</h4>
 		</div>
-    </div>	
-    
-    <div id="gallery">
-        <img src="https://dl.dropbox.com/u/1218282/slideshow/1.jpg" />
-        <img src="https://dl.dropbox.com/u/1218282/slideshow/2.jpg" />
-        <img src="https://dl.dropbox.com/u/1218282/slideshow/3.jpg" />
-        <img src="https://dl.dropbox.com/u/1218282/slideshow/4.jpg" />
-        <img src="https://dl.dropbox.com/u/1218282/slideshow/5.jpg" />
-        <img src="https://dl.dropbox.com/u/1218282/slideshow/6.jpg" />
-        <img src="https://dl.dropbox.com/u/1218282/slideshow/7.jpg" />
-        <img src="https://dl.dropbox.com/u/1218282/slideshow/8.jpg" />
 	</div>
+	<div class="row"><!--Recommended Carousel -->
+		<div class="small-1 column">
+			<a href="#" class="jcarousel-control-prev"><img src="assets/previous-button.png" /></a>
+		</div>
+		<div class="jcarousel-wrapper small-6 columns">		
+			<div class="jcarousel">
+				<ul>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+				</ul>		
+			</div>
+		</div>
+		<div class="small-1 column">
+			<a href="#" class="jcarousel-control-next"><img src="assets/next-button.png" /></a>
+		</div>
+	</div>
+	<div class="fullwidth divider">
+	    <div class="row">
+    		<h4 class="dividertype large-4 columns">Your Friends are Reading</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-1 column">
+			<a href="#" class="jcarousel-control-prev"><img src="assets/previous-button.png" /></a>
+		</div>
+		<div class="jcarousel-wrapper small-6 columns">		
+			<div class="jcarousel">
+				<ul>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+					<li><img src="http://lorempixel.com/200/310" /></li>
+				</ul>		
+			</div>
+		</div>
+		<div class="small-1 column">
+			<a href="#" class="jcarousel-control-next"><img src="assets/next-button.png" /></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="divider large-12 columns" style="margin-top: 70px;">
+			<img src="assets/profile.jpg" width="40" height="40" style="float: left;"/>
+			<h4 class="dividertype large-11 columns">Dashboard</h4>
+		</div>
+		<div class="clear"></div>
+		<div class="large-1 columns"><img src="assets/bookout1.jpg" /></div>
+		<div class="large-1 columns"><img src="assets/bookout2.jpg" /></div>
+		<div class="large-1 columns"><img src="assets/bookout3.jpg" /></div>
+		<div class="large-4 columns">
+			<h2 class="centered">Amount Due</h2>
+			<h1 class="centered">$4.58</h1>
+			<div class="centered">
+				<a href="#" class="centered button [radius round]">Pay Fine</a>
+			</div>
+		</div>
+	</div>
+	<div class="fullwidth topfives">
+		<div class="row">
+			<h4 class="large-3 columns dividertype footertitle">Top Fives</h4> 
+			<p class="large-9 columns footertype firstlinefix">Your recommendations are based on your top fives</p>
+		</div>
+		<div class="row">
+			<div class="large-3 columns topfivecat">
+				<a href="#"><h1>Films</h1></a>
+				<ol class="topfivelist">
+					<a href="#"><li>Inside Llewyn Davis</li</a>
+					<a href="#"><li>The Great Gatsby</li></a>
+					<a href="#"><li>The Guilt Trip</li></a>
+					<a href="#"><li>Pulp Fiction</li></a>
+					<a href="#"><li>The Big Lebowski</li></a>
+				</ol>
+			</div>
+			<div class="large-3 columns topfivecat">
+				<a href="#"><h1>Albums</h1></a>
+				<ol class="topfivelist">
+					<a href="#"><li>20/20 Experience</li></a>
+					<a href="#"><li>Codes & Keys</li></a>
+					<a href="#"><li>Coexist</li></a>
+					<a href="#"><li>Trust</li></a>
+					<a href="#"><li>Young the Giant</li></a>
+				</ol>
+			</div>
+			<div class="large-3 columns topfivecat">
+				<a href="#"><h1>Books</h1></a>
+				<ol class="topfivelist">
+					<a href="#"><li>Design Sponge at Ho...</li></a>
+					<a href="#"><li>The Hunger Games</li></a>
+					<a href="#"><li>Harry Potter Series</li></a>
+					<a href="#"><li>Moby Dick</li></a>
+					<a href="#"><li>1984</li></a>
+				</ol>
+			</div>
+			<div class="large-3 columns topfivecat">
+				<a href="#"><h1>Shows</h1></a>
+				<ol class="topfivelist">
+					<a href="#"><li>True Detective</li></a>
+					<a href="#"><li>Shameless</li></a>
+					<a href="#"><li>Boardwalk Empire</li></a>
+					<a href="#"><li>House of Cards</li></a>
+					<a href="#"><li>Episodes</li></a>
+				</ol>
+			</div>
+		</div>
+	</div>
+	
     
-    
-    
-    
+	
+	
+	
+	
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	
+  </body>
+</html>
+	
+	
+	
+	
+<!--
+ 
     
     	
       <div class="large-12 columns">
@@ -87,7 +243,8 @@
         <h5>Here&rsquo;s your basic grid:</h5>
         <!-- Grid Example -->
 
-        <div class="row">
+        <!--
+<div class="row">
           <div class="large-12 columns">
             <div class="callout panel">
               <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
@@ -202,10 +359,6 @@
         </div>
       </div>
     </div>
+-->
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-  </body>
-</html>
+
