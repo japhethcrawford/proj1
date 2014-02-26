@@ -5357,6 +5357,10 @@ li.top-nav {
     font-family: "Proxima Nova";
     font-weight: 600; }
 
+.ereader .top-bar {
+  min-height: 100px;
+  padding-top: 10px; }
+
 /*
 This is the visible area of you carousel.
 Set a width here to define how much items are visible.
