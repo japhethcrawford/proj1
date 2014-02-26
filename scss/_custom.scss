@@ -116,8 +116,31 @@ li.top-nav{
 	}		
 }
 
+.footer {
+	background-color: #343333;
+	height: 50px;
+	padding-top: 10px;
+	margin-top: 80px;
+	ul {
+		float: left;
+		list-style: none;
+		display: inline;
+		color: lightgray;
+	}
+	li {
+		display: inline;
+		margin-left: 1%;
+		color: lightgray;
+		font-weight: 100;
+		text-transform: uppercase;
+		font-size: 80%;
+	}
+}
 
 
+.killmargin {
+	margin: 0;
+}
 
 .button {
 	background-color: #f38611;
