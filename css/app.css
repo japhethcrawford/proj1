@@ -5225,7 +5225,7 @@ th.hide-for-touch {
 
 @imort "settings";
 body {
-  font-family: "Proxima Nova";
+  font-family: "Proxima-Nova";
   font-weight: 400;
   text-align: left; }
 
@@ -5447,7 +5447,7 @@ li.top-nav {
   margin-top: 30px; }
   .blogpost h3 {
     color: #1780ad;
-    font-family: "Proxima Nova";
+    font-family: "Proxima-Nova";
     font-weight: 600; }
 
 .ereader .top-bar {
