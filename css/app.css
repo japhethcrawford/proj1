@@ -5381,6 +5381,8 @@ li.top-nav {
     font-weight: 100;
     text-transform: uppercase;
     font-size: 80%; }
+  .footer p {
+    color: #b4b4b4; }
 
 .killmargin {
   margin: 0; }
@@ -5397,6 +5399,41 @@ li.top-nav {
 
 .button:hover {
   background-color: #e74408; }
+
+.loadMore {
+  background: #969696;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out; }
+  .loadMore h3 {
+    color: #2f2f2f;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 120%;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out; }
+
+.loadMore:hover {
+  background: #656565;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out; }
+  .loadMore:hover h3 {
+    color: #d0d0d0;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out; }
 
 .blogpost {
   margin-top: 30px; }
