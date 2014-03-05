@@ -2070,7 +2070,7 @@ select {
   background-position-y: center;
   border: 1px solid #cccccc;
   padding: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 2.5rem;
   -webkit-border-radius: 0;
   border-radius: 0; }
   select.radius {
@@ -2215,17 +2215,17 @@ input[type="time"],
 input[type="url"],
 textarea {
   -webkit-appearance: none;
-  background-color: white;
+  background-color: transparent;
   font-family: inherit;
   border: 1px solid #cccccc;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.75);
+  color: white;
   display: block;
-  font-size: 0.875rem;
+  font-size: 2.5rem;
   margin: 0 0 1rem 0;
   padding: 0.5rem;
-  height: 2.3125rem;
+  height: 3.9375rem;
   width: 100%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2265,7 +2265,7 @@ textarea {
   input[type="time"]:focus,
   input[type="url"]:focus,
   textarea:focus {
-    background: #fafafa;
+    background: transparent;
     border-color: #999999;
     outline: none; }
   input[type="text"][disabled],
@@ -2302,7 +2302,7 @@ textarea {
 
 /* Add height value for select elements to match text input height */
 select {
-  height: 2.3125rem; }
+  height: 3.9375rem; }
 
 /* Adjust margin for form elements below */
 input[type="file"],
@@ -5323,9 +5323,23 @@ li.top-nav {
   font-wight: 100;
   text-align: left; }
 
+.checkedOut a {
+  opacity: .8; }
+.checkedOut a:hover {
+  opacity: 1; }
+
+.faveBlogs ul li {
+  list-style: none;
+  display: inline; }
+.faveBlogs .addblog {
+  opacity: .7; }
+.faveBlogs .addblog:hover {
+  opacity: 1; }
+
 .topfives {
   background-color: #1780ad;
-  min-height: 400px; }
+  min-height: 400px;
+  margin-top: 30px; }
 
 .footertitle {
   font-size: 250%; }

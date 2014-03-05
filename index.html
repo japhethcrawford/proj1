@@ -9,6 +9,9 @@
 
     <script src="bower_components/modernizr/modernizr.js"></script>
 	<script type="text/javascript" src="//use.typekit.net/nvj8qgg.js"></script>
+
+  
+
   </head>
   <body>
   	<div class="row top-bar">
@@ -141,12 +144,42 @@
 	</div>
 	
 	<div class="row">
-		<div class="divider large-12 columns" style="margin-top: 70px;">
+	<div class="divider large-12 columns" style="margin-top: 70px;">
+			<h4 class="dividertype large-12 columns">Upcoming Events</h4>
+	</div>
+	<div id="main" role="main" class="large-12 small-centered columns"><!--EventsCarousel -->
+		<section class="slider">
+        <div class="flexslider2 carousel">
+          <ul class="slides">
+            	<li>
+				<a href="#"><img src="assets/recent_event1.png" /></a>
+  	    		</li>
+  	    		<li>
+				<a href="#"><img src="assets/recent_event1.png" /></a>
+  	    		</li>
+  	    		<li>
+				<a href="#"><img src="assets/recent_event1.png" /></a>
+  	    		</li>
+  	    		<li>
+				<a href="#"><img src="assets/recent_event1.png" /></a>
+  	    		</li>
+  	    		<li>
+				<a href="#"><img src="assets/recent_event1.png" /></a>
+  	    		</li>
+  			</ul>
+          </div>
+      </section>
+	</div>
+	
+	
+		<!--
+<div class="divider large-12 columns" style="margin-top: 70px;">
 			<h4 class="dividertype large-12 columns">Upcoming Events</h4>
 		</div>
 		<div class="large-12 columns">
 			<img src="assets/recent_event1.png"
 		</div>
+-->
 	</div>
 	
 	
@@ -182,9 +215,21 @@ $(window).load(function() {
     minItems: 2,
     maxItems: 8
   });
+  $('.flexslider2').flexslider({
+    animation: "slide",
+    animationLoop: true,
+    itemWidth: 210,
+    itemMargin: 5,
+    minItems: 1,
+    maxItems: 1
+  });
 });
   </script>
-	
+  
+
+  
+  
+  			
 	 <!-- Syntax Highlighter -->
 	<script type="text/javascript" src="js/shCore.js"></script>
 	<script type="text/javascript" src="js/shBrushXml.js"></script>
@@ -194,6 +239,9 @@ $(window).load(function() {
 	<script src="js/jquery.easing.js"></script>
 	<script src="js/jquery.mousewheel.js"></script>
 	<script defer src="js/demo.js"></script>
+	
+	
+	
 	
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>

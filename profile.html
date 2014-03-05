@@ -17,19 +17,20 @@
 	$(function() {
     $('.jcarousel').jcarousel({
         // Configuration goes here
-    });
-});
-
-
-</script>
-  </head>
-  <body>
-  	<div class="row top-bar">
+		});
+	});
+	</script>
+</head>
+<body>
+	<!-- START TOP BAR -->
+	<div class="row top-bar">
   		<div class="large-4 large-offset-6 columns">
   			<a class="plainlink" href="blogs.html">BLOGS</a>  &nbsp;&nbsp; |  &nbsp;&nbsp; <a class="plainlink" href="profile.html">VIEW PROFILE</a>
   		</div>
   	</div>
-    <div class="row"><!-- Start Header -->
+  	<!-- END TOP BAR -->
+  	<!-- START HEADER -->
+    <div class="row">
       <div class="large-4 columns">
         <img src="assets/logo.png"/>
       </div>
@@ -40,122 +41,88 @@
 			  <a href="#"><li class="top-nav">RESOURCES</li></a>
 		  </ul>
      </div>
-    </div><!-- End Header -->
-
-    <div><!-- Start Hero Image -->
-    	<img class="fullwidth heroImage" src="assets/bluebooks.jpg"/>
-    </div><!-- End Hero image -->
-    
+    </div>
+    <!-- END HEADER -->
+	<!-- START HERO IMAGE AND FORM -->
+    <div class="fullwidth heroImage"><!-- Start Hero Image -->
+    	<form>
+    		<div class="row heroSearch">
+    			<div class="large-12 large-centered" style="margin-top: 80px;">
+    				<label>
+    					<input type="text" placeholder="What are you looking for?..." />
+    				</label>
+    			</div>
+	    	</div>
+    	</form>
+    </div>
+    <!-- END HERO IMAGE AND FORM -->
+    <!-- REC FOR YOU -->
     <div class="fullwidth divider">
 	    <div class="row">
     		<h4 class="dividertype large-4 columns">Recommended for You</h4>
 		</div>
 	</div>
-	<div id="main" role="main" class="row"><!--Recommended Carousel -->
+	<div id="main" role="main" class="row">
 		<section class="slider">
-        <div class="flexslider carousel">
-          <ul class="slides">
-            	<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-          </ul>
-          </div>
+        	<div class="flexslider carousel">
+				<ul class="slides">
+	            	<li><a href="#"><img src="assets/croppedBooks/BadGames.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/BirdEater.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/BodyBook.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/CitizenVince.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/SycamoreRow.jpg" /></a></li>
+	  				<li><a href="#"><img src="assets/croppedBooks/TheOtherWoman.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/Divergent.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/LiveByNight.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/TheAtlantisGene.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/WheatBelly.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/Unbroken.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/SixthExtinction.jpg" /></a></li>          
+  				</ul>
+  			</div>
       </section>
 	</div>
-	
-	
+	<!-- END REC FOR YOU -->
+	<!-- FRIENDS ARE READING -->
 	<div class="fullwidth divider">
 	    <div class="row">
     		<h4 class="dividertype large-4 columns">Your Friends are Reading</h4>
 		</div>
 	</div>
-	<div id="main" role="main" class="row"><!--Friends are Reading -->
+	<div id="main" role="main" class="row">
 		<section class="slider">
-        <div class="flexslider carousel">
-          <ul class="slides">
-            	<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-  	    		<li>
-				<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-  	    		</li>
-          </ul>
-          </div>
+        	<div class="flexslider carousel">
+				<ul class="slides">
+	            	<li><a href="#"><img src="assets/croppedBooks/BadGames.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/BirdEater.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/BodyBook.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/CitizenVince.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/SycamoreRow.jpg" /></a></li>
+	  				<li><a href="#"><img src="assets/croppedBooks/TheOtherWoman.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/Divergent.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/LiveByNight.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/TheAtlantisGene.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/WheatBelly.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/Unbroken.jpg" /></a></li>
+	  	    		<li><a href="#"><img src="assets/croppedBooks/SixthExtinction.jpg" /></a></li>          
+  				</ul>
+  			</div>
       </section>
 	</div>
-	
-		<div class="row">
+	<!-- END FRIENDS ARE READING -->
+	<!-- DASHBOARD -->
+	<div class="row">
 		<div class="divider large-12 columns" style="margin-top: 70px;">
 			<img src="assets/profile.jpg" width="40" height="40" style="float: left;"/>
 			<h4 class="dividertype large-11 columns">Dashboard</h4>
 		</div>
-		<div class="clear"></div>
-		<div class="large-1 columns"><img src="assets/bookout1.jpg" /></div>
-		<div class="large-1 columns"><img src="assets/bookout2.jpg" /></div>
-		<div class="large-1 columns"><img src="assets/bookout3.jpg" /></div>
+	</div>
+	<div class="row">
+		<div class="large-7 columns checkedOut">
+			<a href="#"><img src="assets/checkedout1.jpg" /></a>
+			<a href="#"><img src="assets/checkedout2.jpg" /></a>
+			<a href="#"><img src="assets/checkedout3.jpg" /></a>
+		</div>
 		<div class="large-4 columns">
 			<h2 class="centered">Amount Due</h2>
 			<h1 class="centered">$4.58</h1>
@@ -163,7 +130,9 @@
 				<a href="#" class="centered button [radius round]">Pay Fine</a>
 			</div>
 		</div>
-	</div>
+	</div>	
+	<!-- END DASHBOARD -->
+	<!-- TOP FIVES -->		
 	<div class="fullwidth topfives">
 		<div class="row">
 			<h4 class="large-3 columns dividertype footertitle">Top Fives</h4> 
@@ -212,22 +181,21 @@
 			</div>
 		</div>
 	</div>
-	
-    
-		<div class="fullwidth footer killmargin">
+	<!-- END TOP FIVES -->
+	<!-- FOOTER -->
+	<div class="fullwidth footer killmargin">
 		<div class="row">
-				<ul class="large-8 columns">
-					<a href="index.html"><li>Home</li></a>&nbsp; | 
-					<a href="#"><li>Wander</li></a>&nbsp; | 
-					<a href="#"><li>Locations</li></a>&nbsp; | 
-					<a href="#"><li>Shelf</li></a>&nbsp; | 
-					<a href="profile.html"><li>Profile</li></a>&nbsp; | 
-					<a href="#"><li>Site Map</li></a>
-				</ul>
-				
+			<ul class="large-8 columns">
+				<a href="index.html"><li>Home</li></a>&nbsp; | 
+				<a href="#"><li>Wander</li></a>&nbsp; | 
+				<a href="#"><li>Locations</li></a>&nbsp; | 
+				<a href="#"><li>Shelf</li></a>&nbsp; | 
+				<a href="profile.html"><li>Profile</li></a>&nbsp; | 
+				<a href="#"><li>Site Map</li></a>
+			</ul>	
 		</div>
 	</div>
-	
+	<!-- END FOOTER -->
 	
 	
 <!-- jQuery -->

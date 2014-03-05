@@ -27,6 +27,10 @@ h4 {
 	z-index: 100;
 }
 
+$input-bg-color: transparent;
+
+
+
 .centered {
 	text-align: center;
 }
@@ -122,9 +126,33 @@ li.top-nav{
 	
 }
 
+.checkedOut {
+	a {
+		opacity: .8;
+	}
+	
+	a:hover {
+		opacity: 1;
+	}
+}
+
+.faveBlogs {
+	ul li {
+		list-style: none;
+		display: inline;
+	}
+	.addblog {
+		opacity: .7;
+	}
+	.addblog:hover {
+		opacity: 1;
+	}
+}
+
 .topfives {
 	background-color: #1780ad;
 	min-height: 400px;
+	margin-top: 30px;
 }
 
 .footertitle {

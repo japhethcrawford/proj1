@@ -6,7 +6,7 @@
     <title>Enoch Pratt Free Library</title>
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-
+    
     <script src="bower_components/modernizr/modernizr.js"></script>
 	<script type="text/javascript" src="//use.typekit.net/nvj8qgg.js"></script>
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
@@ -17,19 +17,20 @@
 	$(function() {
     $('.jcarousel').jcarousel({
         // Configuration goes here
-    });
-});
-
-
-</script>
-  </head>
-  <body>
-  	<div class="row top-bar">
+		});
+	});
+	</script>
+</head>
+<body>
+	<!-- START TOP BAR -->
+	<div class="row top-bar">
   		<div class="large-4 large-offset-6 columns">
   			<a class="plainlink" href="blogs.html">BLOGS</a>  &nbsp;&nbsp; |  &nbsp;&nbsp; <a class="plainlink" href="profile.html">VIEW PROFILE</a>
   		</div>
   	</div>
-    <div class="row"><!-- Start Header -->
+  	<!-- END TOP BAR -->
+  	<!-- START HEADER -->
+    <div class="row">
       <div class="large-4 columns">
         <img src="assets/logo.png"/>
       </div>
@@ -40,60 +41,38 @@
 			  <a href="#"><li class="top-nav">RESOURCES</li></a>
 		  </ul>
      </div>
-    </div><!-- End Header -->
-
-    <div><!-- Start Hero Image -->
-    	<img class="fullwidth heroImage" src="assets/bluebooks.jpg"/>
-    </div><!-- End Hero image -->
-    
-    <div class="fullwidth divider">
+    </div>
+    <!-- END HEADER -->
+	<!-- START HERO IMAGE AND FORM -->
+    <div class="fullwidth heroImage"><!-- Start Hero Image -->
+    	<form>
+    		<div class="row heroSearch">
+    			<div class="large-12 large-centered" style="margin-top: 80px;">
+    				<label>
+    					<input type="text" placeholder="What are you looking for?..." />
+    				</label>
+    			</div>
+	    	</div>
+    	</form>
+    </div>
+    <!-- END HERO IMAGE AND FORM -->
+    <!-- FAVORITED BLOGS -->
+	<div class="fullwidth divider">
 	    <div class="row">
     		<h4 class="dividertype large-4 columns">Favorited Blogs</h4>
 		</div>
 	</div>
-		<div id="main" role="main" class="row"><!--Recommended Carousel -->
-			<section class="slider">
-	        <div class="flexslider carousel">
-	          <ul class="slides">
-	            	<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	  	    		<li>
-					<a href="#"><img src="http://lorempixel.com/100/130" /></a>
-	  	    		</li>
-	          </ul>
-	          </div>
-	      </section>
+	<div class="row">
+		<div class="large-12 columns faveBlogs">
+			<ul>
+		    	<li><a href="#"><img src="assets/faveblog1.jpg" width="180" /></a></li>
+		    	<li><a href="#"><img src="assets/faveblog2.jpg" width="180" /></a></li>
+		    	<li><a href="#"><img src="assets/faveblog3.jpg" width="180" /></a></li>
+		    	<li><a href="#"><img src="assets/faveblog4.jpg" width="180" /></a></li>
+		    	<li><a href="#"><img src="assets/faveblog5.jpg" width="180" class="addblog" /></a></li>
+		    	
+			</ul>
+		</div>
 	</div>
 	<div class="fullwidth divider">
 	    <div class="row">
@@ -113,104 +92,81 @@
 		</div>
 	</div>	
 	<div class="row blogpost">
-		<img class="blogimage large-2 columns" src="assets/blogimage1.jpg" />
+		<img class="blogimage large-2 columns" src="assets/blog1.jpg" />
 		<div class="blogsnippet large-10 columns">
 			<h3>How to Get Windows 7 Desktop Gadgets on Windows 8.1</h3>
 			<p>With Windows 8.1, Windows users not only got a brand new flat UI design but also lost desktop gadgets that they had in Windows 7. Desktop gadgets are those handy apps like clock, calendar, unit converter, battery meter, weather...</p>
 		</div>
 	</div>
 	
-		<div class="row blogpost">
-		<img class="blogimage large-2 columns" src="assets/blogimage1.jpg" />
+	<div class="row blogpost">
+		<img class="blogimage large-2 columns" src="assets/blog2.jpg" />
 		<div class="blogsnippet large-10 columns">
 			<h3>How to Get Windows 7 Desktop Gadgets on Windows 8.1</h3>
 			<p>With Windows 8.1, Windows users not only got a brand new flat UI design but also lost desktop gadgets that they had in Windows 7. Desktop gadgets are those handy apps like clock, calendar, unit converter, battery meter, weather...</p>
 		</div>
 	</div>
 	
-		<div class="row blogpost">
-		<img class="blogimage large-2 columns" src="assets/blogimage1.jpg" />
+	<div class="row blogpost">
+		<img class="blogimage large-2 columns" src="assets/blog3.jpg" />
 		<div class="blogsnippet large-10 columns">
 			<h3>How to Get Windows 7 Desktop Gadgets on Windows 8.1</h3>
 			<p>With Windows 8.1, Windows users not only got a brand new flat UI design but also lost desktop gadgets that they had in Windows 7. Desktop gadgets are those handy apps like clock, calendar, unit converter, battery meter, weather...</p>
 		</div>
 	</div>
 	
-		<div class="row blogpost">
-		<img class="blogimage large-2 columns" src="assets/blogimage1.jpg" />
+	<div class="row blogpost">
+		<img class="blogimage large-2 columns" src="assets/blog4.jpg" />
 		<div class="blogsnippet large-10 columns">
 			<h3>How to Get Windows 7 Desktop Gadgets on Windows 8.1</h3>
 			<p>With Windows 8.1, Windows users not only got a brand new flat UI design but also lost desktop gadgets that they had in Windows 7. Desktop gadgets are those handy apps like clock, calendar, unit converter, battery meter, weather...</p>
 		</div>
 	</div>
-	
-		<div class="row blogpost">
-		<img class="blogimage large-2 columns" src="assets/blogimage1.jpg" />
-		<div class="blogsnippet large-10 columns">
-			<h3>How to Get Windows 7 Desktop Gadgets on Windows 8.1</h3>
-			<p>With Windows 8.1, Windows users not only got a brand new flat UI design but also lost desktop gadgets that they had in Windows 7. Desktop gadgets are those handy apps like clock, calendar, unit converter, battery meter, weather...</p>
-		</div>
-	</div>
-	
-		<div class="row blogpost">
-		<img class="blogimage large-2 columns" src="assets/blogimage1.jpg" />
-		<div class="blogsnippet large-10 columns">
-			<h3>How to Get Windows 7 Desktop Gadgets on Windows 8.1</h3>
-			<p>With Windows 8.1, Windows users not only got a brand new flat UI design but also lost desktop gadgets that they had in Windows 7. Desktop gadgets are those handy apps like clock, calendar, unit converter, battery meter, weather...</p>
-		</div>
-	</div>
-    
-		<div class="fullwidth footer killmargin">
+	<div class="fullwidth footer killmargin">
 		<div class="row">
-				<ul class="large-8 columns">
-					<a href="index.html"><li>Home</li></a>&nbsp; | 
-					<a href="#"><li>Wander</li></a>&nbsp; | 
-					<a href="#"><li>Locations</li></a>&nbsp; | 
-					<a href="#"><li>Shelf</li></a>&nbsp; | 
-					<a href="profile.html"><li>Profile</li></a>&nbsp; | 
-					<a href="#"><li>Site Map</li></a>
-				</ul>
-				
+			<ul class="large-8 columns">
+				<a href="index.html"><li>Home</li></a>&nbsp; | 
+				<a href="#"><li>Wander</li></a>&nbsp; | 
+				<a href="#"><li>Locations</li></a>&nbsp; | 
+				<a href="#"><li>Shelf</li></a>&nbsp; | 
+				<a href="profile.html"><li>Profile</li></a>&nbsp; | 
+				<a href="#"><li>Site Map</li></a>
+			</ul>			
 		</div>
 	</div>
-	
-	
-	
-<!-- jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-      <!-- FlexSlider -->
-  <script defer src="js/jquery.flexslider-min.js"></script>
-
-   <script type="text/javascript">
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    animationLoop: false,
-    itemWidth: 210,
-    itemMargin: 5,
-    minItems: 2,
-    maxItems: 8
-  });
-});
-  </script>
-	
-	 <!-- Syntax Highlighter -->
+	<!-- jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+	<!-- FlexSlider -->
+	<script defer src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+	    animation: "slide",
+	    animationLoop: false,
+	    itemWidth: 210,
+	    itemMargin: 5,
+	    minItems: 2,
+	    maxItems: 8
+		});
+	});
+	</script>
+	<!-- Syntax Highlighter -->
 	<script type="text/javascript" src="js/shCore.js"></script>
 	<script type="text/javascript" src="js/shBrushXml.js"></script>
 	<script type="text/javascript" src="js/shBrushJScript.js"></script>
 	
-	  <!-- Optional FlexSlider Additions -->
+	<!-- Optional FlexSlider Additions -->
 	<script src="js/jquery.easing.js"></script>
 	<script src="js/jquery.mousewheel.js"></script>
 	<script defer src="js/demo.js"></script>
 	
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-    
-
+	<script src="bower_components/foundation/js/foundation.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	
-  </body>
+	</body>
 </html>
