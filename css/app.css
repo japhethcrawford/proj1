@@ -5357,6 +5357,11 @@ li.top-nav {
   font-weight: 200;
   font-size: 90%; }
 
+.footerNav li {
+  border-left: 1px solid white; }
+  .footerNav li:first-child {
+    border-left: none; }
+
 .firstlinefix {
   padding-top: 38px; }
 
